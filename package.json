@@ -1,0 +1,20 @@
+{
+  "name": "paperio-multiplayer",
+  "version": "1.0.0",
+  "description": "Paper.io clone met multiplayer via Socket.io",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "paperio",
+    "multiplayer",
+    "game"
+  ],
+  "author": "jij",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}

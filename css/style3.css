@@ -532,3 +532,33 @@ button img {
 .slider-5 {
   animation: kf_slider 2s 4s both;
 }
+
+.menu button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.menu button:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+.server-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.status-disconnected {
+  color: #ff6b6b;
+}
+
+.status-connected {
+  color: #4CAF50;
+}
+
+.status-error {
+  color: #ff9800;
+}
